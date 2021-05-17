@@ -68,9 +68,10 @@ body {
   border: none;
   margin-left: 144px;
 }
+
 .card__share button img {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 .modal {
   background-color: #49556b;
@@ -91,7 +92,11 @@ body {
   opacity: 1;
   display: flex;
 }
+.black {
+  background-color: #8794a9;
+}
 .modal ul {
+  font-size: 16px;
   display: flex;
   align-items: center;
   list-style: none;
@@ -104,9 +109,15 @@ body {
   display: none;
 }
 .triangulo {
+  display: block;
+  opacity: 1;
+  width: 50px;
+  height: 50px;
   position: absolute;
   background-color: #49556b;
   clip-path: polygon(0 0, 50% 50%, 100% 0);
+  top: 40px;
+  right: 94px;
 }
 footer {
   text-align: center;
@@ -185,6 +196,9 @@ footer {
     opacity: 1;
     display: block;
   }
+  .hide {
+    background-color: #fff;
+  }
   .modal ul {
     display: flex;
     align-items: center;
@@ -194,7 +208,7 @@ footer {
   }
   .modal ul li {
     margin-right: 15px;
-    color: #8794a9;
+    /* color: #8794a9; */
   }
   .modal ul button {
     display: block;
@@ -202,11 +216,10 @@ footer {
     height: 50px;
     border-radius: 50%;
     border: none;
-    margin-left: 81px;
+    margin-left: 82px;
     background-color: #8794a9;
   }
   .modal ul button img {
-    fill: #fff;
     width: 19px;
     height: 19px;
   }
