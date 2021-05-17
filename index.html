@@ -18,9 +18,9 @@
   <body>
     <main class="content">
       <section class="card">
-        <div class="card__image">
+        <figure class="card__image">
           <img src="./src/images/drawers.jpg" alt="Fotografia semanario" />
-        </div>
+        </figure>
         <article class="card__text">
           <h1>
             Shift the overall look and feel by adding these wonderful touches to
@@ -33,22 +33,45 @@
           </p>
           <section class="card__share">
             <img src="./src/images/avatar-michelle.jpg" alt="Photo Person" />
-            <div>
+            <div class="card__share--description">
               <h4>Michelle Appleton</h4>
               <p>28 Jun 2020</p>
             </div>
-            <button class="share">
+            <button class="" id="open">
               <img src="./src/images/icon-share.svg" alt="image arrow share" />
             </button>
           </section>
         </article>
+        <section class="modal" id="modal_container">
+          <ul>
+            <li>Share</li>
+            <li>
+              <a href=""><img src="./src/images/icon-facebook.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./src/images/icon-twitter.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./src/images/icon-pinterest.svg" alt=""
+              /></a>
+            </li>
+            <button class="share" id="close">
+              <img
+                src="./src/images/icon-shareWhite.svg"
+                alt="image arrow share"
+              />
+            </button>
+          </ul>
+        </section>
       </section>
     </main>
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Yoan Malaver Malaver</a>.
-    </div>
+    </footer>
+    <script src="./src/script/modal.js"></script>
   </body>
 </html>
