@@ -1,11 +1,7 @@
 const open = document.getElementById('open');
 const close = document.getElementById('close');
 const modal_container = document.getElementById('modal_container');
-// const sharebtn = document.getElementsByClassName('sharebtn');
 
-// open.addEventListener('click', () => {
-//   modal_container.classList.add('show');
-// });
 close.addEventListener('click', () => {
   modal_container.classList.remove('show');
   open.classList.remove('black');
